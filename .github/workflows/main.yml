@@ -38,7 +38,7 @@ jobs:
         run: yarn build
           
       - name: install surge
-        run: npm intall -g surge
+        run: npm install -g surge
         
       - name: diploying on surge
         run: surge ./build http://internship_class2.surge.sh/ --token {{secrets.SURGE_TOKEN}}

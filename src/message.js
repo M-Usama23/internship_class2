@@ -4,6 +4,7 @@ import './message.css'
 
 
 export default function Message(){
+    
     let [isDay, setDay] = useState(true)
     return(
         <div className={isDay ? 'box' : 'eve' }>
